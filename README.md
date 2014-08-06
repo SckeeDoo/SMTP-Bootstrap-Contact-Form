@@ -5,6 +5,10 @@ I built this Bootstrapped PHPMailer contact form for anyone looking for one to q
 
 ![alt text](http://i.imgur.com/eyaH66q.png"Contact Form")
 
+##Instructions
+- Open the index.php file and fill in your SMTP and email settings, they're labeled with comments.
+- Save and Enjoy.
+
 ##Features:
 - Success Confirmation
 - Error Confirmation
