@@ -36,10 +36,6 @@ Comments:	'.$_POST['comments'].'
     $mail->AddAddress("examplereceiver@gmail.com", "Mr. Example"); // Where to send it - Recipient
     $result = $mail->Send();		// Send!  
 	$message = $result ? '<div class="alert alert-success" role="alert"><strong>Success!</strong>Message Sent Successfully!</div>' : '<div class="alert alert-danger" role="alert"><strong>Error!</strong>There was a problem delivering the message.</div>';  
-	//echo '<script type="text/javascript">';
-	//echo 'window.alert("Message Successfully sent!")';
-	//header('Location: http://timothydejongh.com');  
-	//echo '</script>';
 
 	unset($mail);
 
